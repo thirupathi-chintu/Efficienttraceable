@@ -17,7 +17,7 @@ public class DBConnectionn {
         public static  Connection getConnection(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-             Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/efficient","root","raju1998");
+             Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/efficient","root","root");
             if(con!=null){
                 return con;
             }

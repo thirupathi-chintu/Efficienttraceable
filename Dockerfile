@@ -1,9 +1,9 @@
-FROM tomcat:9-jre8
+FROM mdelapenya/tomcat-mysql:7.0.77
 
-EXPOSE 8080
+#COPY yourapp.war /opt/apache-tomcat-7.0.77/webapps/yourapp.war
 
-RUN rm -rf /usr/local/tomcat/webapps/
+EXPOSE 8080 3306
 
-COPY dist/Efficienttraceable.war /usr/local/tomcat/webapps/
+COPY dist/Efficienttraceable.war /opt/apache-tomcat-7.0.77/webapps/
 
-CMD ["catalina.sh", "run"]
+CMD []
