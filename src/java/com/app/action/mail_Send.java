@@ -32,7 +32,7 @@ public class mail_Send {
         Session session = Session.getDefaultInstance(props,
         new javax.mail.Authenticator() {
         protected PasswordAuthentication getPasswordAuthentication() {
-        return new PasswordAuthentication("datapointprojects13@gmail.com","lx160cm@1");
+        return new PasswordAuthentication("tpcecse@gmail.com","thirupathi39");
         }
         });
 

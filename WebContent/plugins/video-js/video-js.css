@@ -1338,7 +1338,7 @@ video::-webkit-media-text-track-display {
     grid-row: 1; }
   .vjs-text-track-settings .vjs-track-settings-controls {
     grid-column: 2;
-    grid-row: 2; } 
+    grid-row: 2; } }
 
 .vjs-track-setting > select {
   margin-right: 5px; }
